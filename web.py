@@ -22,4 +22,3 @@ for index,todo in enumerate(todos):
         st.experimental_rerun()
 
 st.text_input(label="Add new todo", placeholder="Type todo here...", on_change=add_todo, key='new_todo', label_visibility="hidden")
-st.session_state
